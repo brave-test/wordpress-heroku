@@ -80,8 +80,8 @@ define('NONCE_SALT', getEnvOr('NONCE_SALT', ']c5oeTN0OF{Tif5a7@h<GY#N-(X/P?&z@4J
 define('WP_SITEURL', getEnvOr('WP_SITEURL', URL));
 define('WP_HOME', getEnvOr('WP_HOME', URL));
 
-define('DISALLOW_FILE_EDIT', getEnvOr('DISALLOW_FILE_EDIT', true));
-define('DISALLOW_FILE_MODS', getEnvOr('DISALLOW_FILE_MODS', true));
+define('DISALLOW_FILE_EDIT', getEnvOr('DISALLOW_FILE_EDIT', false));
+define('DISALLOW_FILE_MODS', getEnvOr('DISALLOW_FILE_MODS', false));
 define('AUTOMATIC_UPDATER_DISABLED', getEnvOr('AUTOMATIC_UPDATER_DISABLED', true));
 define('WP_DEFAULT_THEME', getEnvOr('WP_DEFAULT_THEME', 'wphh-default'));
 
