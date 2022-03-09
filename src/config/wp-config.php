@@ -64,9 +64,9 @@ define('PREFIX', getEnvOr('PREFIX', 'wphh_'));
 define('DB_CHARSET', getEnvOr('DB_CHARSET', 'utf8mb4'));
 define('DB_COLLATE', getEnvOr('DB_COLLATE', ''));
 define('DB_NAME', getEnvOr('DB_NAME', md5(HOST)));
-define('DB_USER', getEnvOr('DB_USER', 'root'));
-define('DB_PASSWORD', getEnvOr('DB_PASSWORD', ''));
-define('DB_HOST', getEnvOr('DB_HOST', '127.0.0.1'));
+define('DB_USER', getEnvOr('DB_USER', 'mme0lvx8l1tqyzyl'));
+define('DB_PASSWORD', getEnvOr('DB_PASSWORD', 'obon2tbbxk25pg1f'));
+define('DB_HOST', getEnvOr('DB_HOST', 'i54jns50s3z6gbjt.chr7pe7iynqr.eu-west-1.rds.amazonaws.com'));
 
 define('AUTH_KEY', getEnvOr('AUTH_KEY', 'uKa(B9 slREej&K-gsUKvl=2R457a9`eZp0_Ib %H+TChCC/0V)$@s&C{ga}`6J`'));
 define('SECURE_AUTH_KEY', getEnvOr('SECURE_AUTH_KEY', 'd@B;=}pf]x$(B]&,LL?oL3Ap;wsJI}wfgzjf9c$:r+R}en$^b$Nt]:Sk  (FJO4$'));
@@ -85,7 +85,7 @@ define('DISALLOW_FILE_MODS', getEnvOr('DISALLOW_FILE_MODS', true));
 define('AUTOMATIC_UPDATER_DISABLED', getEnvOr('AUTOMATIC_UPDATER_DISABLED', true));
 define('WP_DEFAULT_THEME', getEnvOr('WP_DEFAULT_THEME', 'wphh-default'));
 
-define('WP_DEBUG', getEnvOr('WP_DEBUG', false));
+define('WP_DEBUG', getEnvOr('WP_DEBUG', true));
 define('WP_DEBUG_LOG', getEnvOr('WP_DEBUG_LOG', __DIR__.'/error.log'));
 define('WP_DEBUG_DISPLAY', getEnvOr('WP_DEBUG_DISPLAY', false));
 define('SAVEQUERIES', getEnvOr('WP_DEBUG_DISPLAY', false));
